@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="header">
+            <h1>Weather Dashboard</h1>
+            <p>Enter any city name below to get hit with some up to date weather facts! <br> (UV Index is lame anyway,
+                you
+                should wear sunscreen regardless)</p>
+        </div>
+
+        <div class="input">
+            <input type="text" placeholder="Enter the city" class="input_text">
+            <input type="submit" value="Submit" class="submit">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h1 class="name" id="name"></h1>
+            <p class="icon"></p>
+            <p class="temp"></p>
+            <p class="wind"></p>
+            <p class="uv"></p>
+            <p class="humid"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

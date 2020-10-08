@@ -67,6 +67,12 @@ p{
 }
 
 .card p{
+  text-align: center;
+  margin:4px 0;
+  font-size:20px;
+}
+
+.five p{
   text-align: left;
   margin:4px 0;
   font-size:20px;

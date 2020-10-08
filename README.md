@@ -1,5 +1,7 @@
 # Weather-Dashboard
 
+Website Link: https://brandpower.github.io/Weather-Dashboard/
+
 The Weather Dashboard allows you type in any city name in the world and will show you the temperature, an icon representing that temperature and the humidity. 
 
 I also wanted to include a five day forecast however had trouble linking up that API to my javascript. I'm not sure why it was unresponsive, however this si something that, through collaboration and further experience, I will be able to solve. 
